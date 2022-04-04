@@ -77,3 +77,5 @@ taskkill /im msedge.exe /f  //关闭edge浏览器
 **Ⅸ.** 任务计划程序库→拉到最底下找到“ZJUdaka”选中→运行→状态变为“正在运行”即可。
 
 <img src="https://user-images.githubusercontent.com/48110180/161522183-a95c698d-93dc-4bb7-a70c-9b6e6f4b9859.png" width="500px">
+
+**Ⅹ.** 理论上来说已经设置完成了。
