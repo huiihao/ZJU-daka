@@ -41,7 +41,7 @@
 
 **Ⅳ.** 在自己选定的文件夹创建一个新的txt文件(比如：ZJUdaka.txt)，并输入以下内容并保存。然后重命名为batch处理文件，即将txt后缀改为bat(比如：ZJUdaka.bat)。msedge.exe可以换成别的浏览器，比如chrome.exe。
 
-```bash
+```batch
 @echo off
 start msedge.exe https://healthreport.zju.edu.cn/ncov/wap/default/index  //打开健康上报网页
 ping -n 60 127.0.0.1  //等待1分钟
