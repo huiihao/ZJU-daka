@@ -19,9 +19,11 @@
 
 - - -
 
-**Ⅰ**. 点击该链接进行安装：[浙江大学健康上报自动化脚本 (greasyfork.org)](https://greasyfork.org/en/scripts/430082-%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E5%81%A5%E5%BA%B7%E6%89%93%E5%8D%A1%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC-%E4%BF%AE%E6%AD%A3%E7%89%88)
+**Ⅰ**. **fig5**. 点击该链接进行安装：[浙江大学健康上报自动化脚本 (greasyfork.org)](https://greasyfork.org/en/scripts/430082-%E6%B5%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E5%81%A5%E5%BA%B7%E6%89%93%E5%8D%A1%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC-%E4%BF%AE%E6%AD%A3%E7%89%88)；**fig6**. 安装不了的(一般不会装不了)，将该项目文件夹下的.js文件内容复制到
 
-<img src="https://user-images.githubusercontent.com/48110180/161521893-f36f4bd5-aa01-4cb0-8dd9-5ee352a0d9d3.png" width="500px">
+| fig5                | fig6                     |
+|:--------------------:|:------------------------:|
+| ![image](https://user-images.githubusercontent.com/48110180/161521893-f36f4bd5-aa01-4cb0-8dd9-5ee352a0d9d3.png#pic_center) | ![image](https://user-images.githubusercontent.com/48110180/161539362-d820c319-0c1d-4172-bd01-0ed008369131.png#pic_center) | 
 
 - - -
 
