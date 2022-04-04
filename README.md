@@ -1,6 +1,6 @@
 # ZJU-daka
 
-**ZJU每日健康上报自动化打卡教程**，利用windows自带的功能：**任务计划程序**，以及**edge浏览器插件**，实现每日健康上报：
+**ZJU每日健康上报自动化打卡教程**，利用**windows**自带的功能：**任务计划程序**，以及**edge浏览器(chrome浏览器也行)插件**，实现每日健康上报：
 
 <img src="https://user-images.githubusercontent.com/48110180/161521489-5bca2e53-c342-4c38-bfde-faed5573c18c.png" width="500px">
 
