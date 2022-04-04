@@ -10,7 +10,7 @@
 
 ## 步骤
 
-**〇.** 打开edge浏览器，**fig1、2**. Extentions→Manage extensions→Get extensions for Microsoft Edge，**fig3**. 搜索“Tampermonkey”并安装，**fig4**. 确保该插件是开启的。**Tampermonkey下载缓慢可点击此处去[官网](https://www.tampermonkey.net/)下载。**
+**〇.** 打开edge浏览器(chrome浏览器也行，但是得与Ⅳ对应)，**fig1、2**. Extentions→Manage extensions→Get extensions for Microsoft Edge，**fig3**. 搜索“Tampermonkey”并安装，**fig4**. 确保该插件是开启的。**Tampermonkey下载缓慢可点击此处去[官网](https://www.tampermonkey.net/)下载。**
 
 
 | fig1                 | fig2                     | fig3                |fig4                 |
