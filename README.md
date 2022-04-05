@@ -8,6 +8,15 @@
  - 默认每次提交上次所提交的内容（只有时间部分更新）
  - 打卡信息有变时，请手动打卡一次
 
+## Update
+
+**第Ⅴ步修正一下**，大家可能会发现状态会一直处于“准备就绪”的状态，而不会到时间自己运行。这边按下图设置，应该可以。
+
+<img src="https://user-images.githubusercontent.com/48110180/161714828-42bae286-a040-4171-9f9a-ff892fb74c06.png" width="500px">
+
+**起始于**这个操作在windows计划任务的设置里是个可选项，所以我们在操作的时候一般都忽略了，但因此会导致错误的发生。比如我的定时任务程序中需要用到一个文件，在读的时候就会报未能找到文件“C:\Windows\system32\xxx”,又或者程序要写一个文件的时候也会报错，这些都是因为没有设置"起始于"导致的，起始于的目的是指定你执行文件的根目录，如果没有指定程序就会寻址到C:\Windows\system32这个目录下。
+
+
 ## 步骤
 
 **〇.** 打开edge浏览器(chrome浏览器也行，但是得与Ⅳ对应)，**fig1、2**. Extentions→Manage extensions→Get extensions for Microsoft Edge，**fig3**. 搜索“Tampermonkey”并安装，**fig4**. 确保该插件是开启的。**Tampermonkey下载缓慢可点击此处去[官网](https://www.tampermonkey.net/)下载。**
