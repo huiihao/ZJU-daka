@@ -1,6 +1,6 @@
 # ZJU-daka(这东西没有库，总不能删库跑路了吧)
 
-**ZJU每日健康上报自动化打卡教程**，利用**windows**自带的功能：**任务计划程序**，以及**edge浏览器(chrome浏览器也行)插件**，实现每日健康上报：
+**ZJU每日健康上报自动化打卡教程**，利用**windows**自带的功能：**任务计划程序**，以及**edge浏览器(firefox浏览器也行)插件**，实现每日健康上报：
 
 <img src="https://user-images.githubusercontent.com/48110180/161521489-5bca2e53-c342-4c38-bfde-faed5573c18c.png" width="500px">
 
@@ -11,11 +11,15 @@
 
 ## Update
 ### 2022.04.13
-#### "taskkill /im msedge.exe /f  //关闭edge浏览器进程"关不掉的原因：自动填报完成后会跳出此类窗口。
+#### "taskkill /im msedge.exe /f  //关闭edge浏览器进程"关不掉的原因：1.自动填报完成后会跳出此类窗口；2.还有别的网页。
 
 ![image](https://user-images.githubusercontent.com/48110180/163113054-c4e07269-b365-421c-9e7a-ef3d288ef5cd.png)
 
 #### 如果你的设备日常处于开机状态，且主力浏览器(edge浏览器)一直开着不想关掉的网页，那么可以用别的浏览器(chrome浏览器、firefox浏览器)进行自动打卡的操作。
+
+Firefox浏览器Tampermonkey插件的安装：(用firefox浏览器)打开[扩展商店](https://addons.mozilla.org/zh-CN/firefox/collections/4757633/webdeveloper/)搜索安装即可，同edge浏览器。
+
+Chrome浏览器Tampermonkey插件的安装(可以直接跳过但是可以学一下)：
 
 由于大家的chrome浏览器可能打不开扩展商店，所以可以去下面的网站搜索chrome浏览器的插件安装包并进行手动安装：
 
