@@ -10,6 +10,9 @@
  - 电脑只要一直处于开机状态，或者每天正常开关机，就会实现自动打卡。
 
 ## Update
+### 2022.04.13
+"taskkill /im msedge.exe /f  //关闭edge浏览器进程"如果关不掉，盲猜再加一个"/t"应该就可以了。
+
 ### 2022.04.07
 如果定位不了，可能是以下问题：1. 挂着vpn；2. 浏览器别的插件的定位，比如Momentum的地理定位是可以手动调的。反正直要改成杭州就都可以，其余地方不知道行不行。
 
@@ -61,7 +64,7 @@
 @echo off
 start msedge.exe https://healthreport.zju.edu.cn/ncov/wap/default/index  //打开健康上报网页
 ping -n 60 127.0.0.1  //等待1分钟
-taskkill /im msedge.exe /f  //关闭edge浏览器的batch代码，而不是关闭浏览器
+taskkill /im msedge.exe /f  //关闭edge浏览器进程
 ```
 
 - - -
