@@ -153,3 +153,9 @@ firefox浏览器可能会出现以下报错：
 
 ![image](https://user-images.githubusercontent.com/48110180/163160563-06e34f98-8ea7-4c67-8248-f354368dda61.png)
 
+原因：在自动打卡脚本运行中，Tampermonkey插件的自动打卡脚本还没有运行完，即每日上报未提交，浏览器就被关闭。
+
+解决方法：以排障模式(安全模式)打开浏览器，点击右上角三个点→帮助→关闭排障模式。同时将bat文件的TIMEOUT时间适当变长，保证自动打卡脚本运行完毕。
+
+![image](https://user-images.githubusercontent.com/48110180/163163615-0c887adf-f591-4455-8f6a-516204796fad.png)
+
