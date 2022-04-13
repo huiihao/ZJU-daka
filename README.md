@@ -93,13 +93,14 @@ start firefox.exe https://healthreport.zju.edu.cn/ncov/wap/default/index  //打�
 ping -n 60 127.0.0.1  //等待60秒，可以短亿点
 taskkill /im firefox.exe /f  //关闭firefox浏览器进程；“taskkill /im firefox.exe /f /t” 也行；如果想看打卡结果或者开着想留着的网页的话，这步得去掉
 ```
-中文最好全部删掉，不然可能报错。上面的关闭不了浏览器，改进脚本如下，可以关闭浏览器：
+中文最好全部删掉，不然可能报错。**上面的关闭不了浏览器**，改进脚本如下，可以关闭浏览器：
 ```batch
 @echo off
 start firefox.exe https://healthreport.zju.edu.cn/ncov/wap/default/index
-TIMEOUT 20
+TIMEOUT 60
 taskkill /f /fi "IMAGENAME eq firefox.exe"
 ```
+(等待时间TIMEOUT看电脑运行的快不快，保证网页打卡获取地理位置信息完成)
 - - -
 
 **Ⅴ.** “操作”如图按需自定义设置
