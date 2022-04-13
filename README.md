@@ -11,7 +11,25 @@
 
 ## Update
 ### 2022.04.13
-"taskkill /im msedge.exe /f  //关闭edge浏览器进程"如果关不掉，盲猜再加一个"/t"应该就可以了。
+#### "taskkill /im msedge.exe /f  //关闭edge浏览器进程"关不掉的原因：自动填报完成后会跳出此类窗口。
+
+![image](https://user-images.githubusercontent.com/48110180/163113054-c4e07269-b365-421c-9e7a-ef3d288ef5cd.png)
+
+#### 如果你的设备日常开机，且主力浏览器(edge浏览器)一直开着不想关掉的网页，那么可以用别的浏览器(chrome浏览器)进行自动打卡的操作。
+
+由于大家的chrome浏览器可能打不开扩展商店，所以可以去下面的网站搜索chrome浏览器的插件安装包并进行手动安装：
+
+[Crx搜搜](https://www.crxsoso.com/)：这个网址可以直接用chrome浏览器打开，和chrome插件商店一样会自动安装插件。如果安装失败，则手动安装，可以点击网页中的离线安装按教程进行操作。
+
+![image](https://user-images.githubusercontent.com/48110180/163117444-d996ef0f-34ae-4f3c-80cf-77da4f63ec7f.png)
+
+[CrxDL.COM](https://crxdl.com/)：这个网址只能下载Crx文件，再进行手动安装插件。电脑和手机都可以安装 Chrome 扩展插件，在网上有很多具体的安装方法，这里列举两个安装教程：[电脑安装](https://www.cccitu.com/3391.html)、[手机安装](https://www.cccitu.com/982.html)。
+
+在chrome浏览器安装好Tampermonkey后，接着步骤Ⅰ按照教程操作。额外步骤：打开 [每日上报](https://healthreport.zju.edu.cn/ncov/wap/default/index)界面手动登陆一次，且授权获取定位：
+
+![image](https://user-images.githubusercontent.com/48110180/163118454-1ca196db-0280-455f-a2b7-8275d6d27898.png)
+
+一般chrome浏览器自动打卡会：获取位置信息失败，请检查定位服务是否开启！用[chrome浏览器模拟定位](https://blog.csdn.net/weixin_47882458/article/details/107237924)也不行，由于edge浏览器是chrome内核，在edge浏览器同样的操作，是可以自动获取到模拟定位的。
 
 ### 2022.04.07
 如果定位不了，可能是以下问题：1. 挂着vpn；2. 浏览器别的插件的定位，比如Momentum的地理定位是可以手动调的。反正直要改成杭州就都可以，其余地方不知道行不行。
