@@ -25,7 +25,7 @@
 
 [CrxDL.COM](https://crxdl.com/)：这个网址只能下载Crx文件，再进行手动安装插件。电脑和手机都可以安装 Chrome 扩展插件，在网上有很多具体的安装方法，这里列举两个安装教程：[电脑安装](https://www.cccitu.com/3391.html)、[手机安装](https://www.cccitu.com/982.html)。
 
-在chrome浏览器安装好Tampermonkey后，接着步骤Ⅰ按照教程操作。额外步骤：打开 [每日上报](https://healthreport.zju.edu.cn/ncov/wap/default/index)界面手动登陆一次，且授权获取定位：
+在chrome浏览器安装好Tampermonkey后，接着步骤Ⅰ按照教程操作。额外步骤：打开[每日上报](https://healthreport.zju.edu.cn/ncov/wap/default/index)界面手动登陆一次，且授权获取定位：
 
 ![image](https://user-images.githubusercontent.com/48110180/163118454-1ca196db-0280-455f-a2b7-8275d6d27898.png)
 
