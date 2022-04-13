@@ -149,3 +149,7 @@ taskkill /f /fi "IMAGENAME eq firefox.exe"
 
 ![image](https://user-images.githubusercontent.com/48110180/163135916-73e9d2bd-1323-47ed-a4c6-ce8c9e433dd0.png)
 
+firefox浏览器可能会出现以下报错：
+
+![image](https://user-images.githubusercontent.com/48110180/163160563-06e34f98-8ea7-4c67-8248-f354368dda61.png)
+
