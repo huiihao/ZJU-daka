@@ -61,7 +61,7 @@
 @echo off
 start msedge.exe https://healthreport.zju.edu.cn/ncov/wap/default/index  //打开健康上报网页
 ping -n 60 127.0.0.1  //等待1分钟
-taskkill /im msedge.exe /f  //关闭edge浏览器
+taskkill /im msedge.exe /f  //关闭edge浏览器的batch代码，而不是关闭浏览器
 ```
 
 - - -
