@@ -138,7 +138,7 @@ taskkill /im firefox.exe /f  //关闭firefox浏览器进程；“taskkill /im fi
 
 ![image](https://user-images.githubusercontent.com/48110180/163131188-f8e7cc95-9076-46a6-9fdc-e071f3c545de.png)
 
-出现这个建议也弄好：
+如果出现这个，让它不要再弹出来了：
 
 ![image](https://user-images.githubusercontent.com/48110180/163135916-73e9d2bd-1323-47ed-a4c6-ce8c9e433dd0.png)
 
