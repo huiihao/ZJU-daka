@@ -84,14 +84,14 @@
 @echo off
 start msedge.exe https://healthreport.zju.edu.cn/ncov/wap/default/index  //打开健康上报网页
 ping -n 60 127.0.0.1  //等待60秒，可以短亿点
-taskkill /im msedge.exe /f /t //关闭edge浏览器进程；如果开着想留着的网页的话，这步得去掉
+taskkill /im msedge.exe /f /t //关闭edge浏览器进程；如果想看打卡结果或者开着想留着的网页的话，这步得去掉
 ```
 
 ```batch
 @echo off
 start firefox.exe https://healthreport.zju.edu.cn/ncov/wap/default/index  //打开健康上报网页
 ping -n 60 127.0.0.1  //等待60秒，可以短亿点
-taskkill /im firefox.exe /f  //关闭firefox浏览器进程；“taskkill /im firefox.exe /f /t” 也行
+taskkill /im firefox.exe /f  //关闭firefox浏览器进程；“taskkill /im firefox.exe /f /t” 也行；如果想看打卡结果或者开着想留着的网页的话，这步得去掉
 ```
 
 - - -
