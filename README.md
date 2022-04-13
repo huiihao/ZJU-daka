@@ -137,3 +137,8 @@ taskkill /im firefox.exe /f  //关闭firefox浏览器进程；“taskkill /im fi
 **Ⅹ.** 理论上来说已经设置完成了。最后一定要手动进行以下操作：用第Ⅳ步中对应的浏览器打开[健康上报网页](https://healthreport.zju.edu.cn/ncov/wap/default/index)，进行一次账户登录(最之后就不用登陆了)，然后“允许”网页获取位置信息，如果有“记住此决定”这类选项的，一定要选中。
 
 ![image](https://user-images.githubusercontent.com/48110180/163131188-f8e7cc95-9076-46a6-9fdc-e071f3c545de.png)
+
+出现这个建议也弄好：
+
+![image](https://user-images.githubusercontent.com/48110180/163135916-73e9d2bd-1323-47ed-a4c6-ce8c9e433dd0.png)
+
