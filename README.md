@@ -11,7 +11,7 @@
 
 ## Update
 ### 2022.04.13
-"taskkill /im msedge.exe /f  //关闭edge浏览器进程"，关不掉浏览器的原因：1.自动填报完成后会跳出此类窗口；2.还有别的网页。
+"taskkill /im msedge.exe /f  //关闭edge浏览器进程"，关不掉浏览器的原因：别的网页的存在。
 
 当然，加上"/t"可以全部关掉，但是不实用，因为可能设备日常处于开机状态，主力浏览器(edge浏览器)一直开着不想关掉的网页，这个时候可以用别的浏览器(firefox浏览器)进行自动打卡。
 
@@ -29,7 +29,7 @@
 
 ## 步骤
 
-**〇.** 如果主力浏览器(edge浏览器)一直开着不想关掉的网页，那么可以用别的浏览器(chrome浏览器、firefox浏览器)进行自动打卡的操作。后续发现chrome浏览器不行，firefox浏览器可以。
+**〇.** 如果主力浏览器(edge浏览器)一直开着不想关掉的网页，那么可以用别的浏览器(chrome浏览器、firefox浏览器)进行自动打卡的操作。后续发现chrome浏览器不行，firefox浏览器可以。之后默认edge浏览器为主力浏览器，firefox浏览器为别的浏览器。
 
 **Edge浏览器Tampermonkey插件的安装：** 打开edge浏览器(firefox浏览器也行，但是得与Ⅳ对应)，**fig1、2**. Extentions→Manage extensions→Get extensions for Microsoft Edge，**fig3**. 搜索“Tampermonkey”并安装，**fig4**. 确保该插件是开启的。**Tampermonkey下载缓慢可点击此处去[官网](https://www.tampermonkey.net/)下载。**
 
@@ -84,14 +84,14 @@
 @echo off
 start msedge.exe https://healthreport.zju.edu.cn/ncov/wap/default/index  //打开健康上报网页
 ping -n 60 127.0.0.1  //等待60秒，可以短亿点
-taskkill /im msedge.exe /f  //关闭edge浏览器进程
+taskkill /im msedge.exe /f /t //关闭edge浏览器进程；如果开着想留着的网页的话，这步得去掉
 ```
 
 ```batch
 @echo off
 start firefox.exe https://healthreport.zju.edu.cn/ncov/wap/default/index  //打开健康上报网页
 ping -n 60 127.0.0.1  //等待60秒，可以短亿点
-taskkill /im firefox.exe /f  //关闭firefox浏览器进程
+taskkill /im firefox.exe /f  //关闭firefox浏览器进程；“taskkill /im firefox.exe /f /t” 也行
 ```
 
 - - -
