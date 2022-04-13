@@ -11,9 +11,9 @@
 
 ## Update
 ### 2022.04.13
-"taskkill /im msedge.exe /f  //关闭edge浏览器进程"，关不掉浏览器的原因：1.弹出了此类窗口；2.别的网页的存在。
+"taskkill /im msedge.exe /f  //关闭edge浏览器进程"，报错，建议去掉中文再试试，不行就用 taskkill /f /fi "IMAGENAME eq msedge.exe" 。
 
-当然，加上"/t"可以全部关掉，但是不实用，因为可能设备日常处于开机状态，主力浏览器(edge浏览器)一直开着不想关掉的网页，这个时候可以用别的浏览器(firefox浏览器)进行自动打卡。
+因为可能设备日常处于开机状态，主力浏览器(edge浏览器)一直开着不想关掉的网页，这个时候可以用别的浏览器(firefox浏览器)进行自动打卡。
 
 ![image](https://user-images.githubusercontent.com/48110180/163113054-c4e07269-b365-421c-9e7a-ef3d288ef5cd.png)
 
@@ -97,7 +97,7 @@ taskkill /im firefox.exe /f  //关闭firefox浏览器进程；“taskkill /im fi
 ```batch
 @echo off
 start firefox.exe https://healthreport.zju.edu.cn/ncov/wap/default/index
-TIMEOUT 5 
+TIMEOUT 20
 taskkill /f /fi "IMAGENAME eq firefox.exe"
 ```
 - - -
