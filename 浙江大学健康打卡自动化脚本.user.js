@@ -26,9 +26,11 @@
     // 特殊的选项
     //是否是不宜接种人群;当前接种情况
     var keywordsSp = ["sfbyjzrq","jzxgymqk"];
+ 
     // 需要选是的选项
     // 是否意向接种; 今日是否在校;所在地点
     var keywordsYes = ["sfyxjzxgym", "sfzx","sfzgn"];
+ 
     // 需要选否的选项
     //今日是否因发热请假未到岗;
     //今日是否因发热外的其他原因请假未到岗;今日是否有发热症状（高于37.2 ℃）;
@@ -36,7 +38,6 @@
     //今日是否居家隔离观察;
     //是否有任何与疫情相关的，值得注意的情况;
     //本人家庭成员(包括其他密切接触人员)是否有近14日入境或近14日拟入境的情况
- 
     var keywordsNo = ["sffrqjwdg", "sfqtyyqjwdg","tw","sfyqjzgc","sfcyglq","sfcxzysx","sfymqjczrj",];
     for(var i = 0; i < keywordsNo.length; i++) {
         try {
