@@ -13,7 +13,7 @@
 ### 2022.05.08
 加了验证码，脚本得改进。学有余力的同学可以看：[教程思路1](https://www.bilibili.com/video/BV1fU4y1f7Nm/?spm_id_from=333.788.recommend_more_video.1)或者[教程思路2](https://www.bilibili.com/video/BV1yb4y1U7Ny/?spm_id_from=333.788.recommend_more_video.8)。
 
-这里提供一个简单的方法，下载我已经上传的**AutoVerify 1.1.7.crx**，自己去插件市场下载也可以。
+这里提供一个简单的方法，下载我已经上传的**AutoVerify 1.1.7.crx**，自己去插件市场下载也可以，但是这个之能用在chrome或者edge浏览器，firefox浏览器用不了。
 
 ### 2022.04.13
 "taskkill /im msedge.exe /f  //关闭edge浏览器进程"，报错，建议去掉中文再试试，不行就用 taskkill /f /fi "IMAGENAME eq msedge.exe" 。
