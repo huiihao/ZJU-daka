@@ -13,11 +13,9 @@
 ### 2022.05.08
 加了验证码，脚本得改进。学有余力的同学可以看：[教程思路1](https://www.bilibili.com/video/BV1fU4y1f7Nm/?spm_id_from=333.788.recommend_more_video.1)或者[教程思路2](https://www.bilibili.com/video/BV1yb4y1U7Ny/?spm_id_from=333.788.recommend_more_video.8)。
 
-这里提供一个简单的方法，下载我已经上传的**AutoVerify 1.1.7.crx**，拖进chrome或者edge浏览器的插件页面安装即可。自己去插件市场下载也可以，但是这个之能用在chrome或者edge浏览器，firefox浏览器用不了。
+这里提供一个简单的方法，下载我已经上传的**AutoVerify 1.1.7.crx**，拖进chrome或者edge浏览器的插件页面安装即可。自己去插件市场下载也可以，但是这个之能用在chrome或者edge浏览器，firefox浏览器用不了。然后手动再填写一遍之后，在验证码图片右键→识别此验证码，然后刷新页面，验证码会自动填写，如果不行多试几次，这个方法我得等第二天看行不行。
 
-[谷歌浏览器插件迁移到火狐浏览器教程](https://blog.csdn.net/qq_36292543/article/details/119028157)
-
-[跳不出reCAPTCHA验证码的看这个教程](https://blog.csdn.net/qq_38388811/article/details/109137619)
+利用[谷歌浏览器插件迁移到火狐浏览器教程](https://blog.csdn.net/qq_36292543/article/details/119028157)，做了一个我已经上传的**AutoVerify 1.1.7.xpi**，拖进firefox浏览器的插件页面安装即可。过程中可能遇到[跳不出reCAPTCHA验证码](https://blog.csdn.net/qq_38388811/article/details/109137619)的问题，可以看链接解决。
 
 ### 2022.04.13
 "taskkill /im msedge.exe /f  //关闭edge浏览器进程"，报错，建议去掉中文再试试，不行就用 taskkill /f /fi "IMAGENAME eq msedge.exe" 。
