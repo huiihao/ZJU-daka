@@ -10,6 +10,9 @@
  - 电脑只要一直处于开机状态，或者每天正常开关机，就会实现自动打卡。
 
 ## Update
+### 2022.05.08
+加了验证码，脚本得改进。
+
 ### 2022.04.13
 "taskkill /im msedge.exe /f  //关闭edge浏览器进程"，报错，建议去掉中文再试试，不行就用 taskkill /f /fi "IMAGENAME eq msedge.exe" 。
 
