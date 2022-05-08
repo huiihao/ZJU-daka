@@ -16,7 +16,9 @@
 这里提供一个简单的方法，下载我已经上传的**AutoVerify 1.1.7.crx**，自己去插件市场下载也可以，但是这个之能用在chrome或者edge浏览器，firefox浏览器用不了。
 
 [谷歌浏览器插件迁移到火狐浏览器教程](https://blog.csdn.net/qq_36292543/article/details/119028157)
+
 [跳不出reCAPTCHA验证码的看这个教程](https://blog.csdn.net/qq_38388811/article/details/109137619)
+
 ### 2022.04.13
 "taskkill /im msedge.exe /f  //关闭edge浏览器进程"，报错，建议去掉中文再试试，不行就用 taskkill /f /fi "IMAGENAME eq msedge.exe" 。
 
