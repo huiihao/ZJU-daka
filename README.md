@@ -10,7 +10,8 @@
  - 电脑只要一直处于开机状态，或者每天正常开关机，就会实现自动打卡。
 
 ## Update
-目前用不了，空了再更新。
+### 2022.08.01
+如果不怕账号密码泄露(泄露的话，他是校友，干坏事，学校会管的)，可以用这个别人写的，还有交互界面：https://tool.zjucjh.com:666/dk/
 
 ### 2022.05.08
 加了验证码，脚本得改进。学有余力的同学可以看：[教程思路1](https://www.bilibili.com/video/BV1fU4y1f7Nm/?spm_id_from=333.788.recommend_more_video.1)或者[教程思路2](https://www.bilibili.com/video/BV1yb4y1U7Ny/?spm_id_from=333.788.recommend_more_video.8)。
