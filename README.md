@@ -169,3 +169,4 @@ firefox浏览器可能会出现以下报错：
 
 ![image](https://user-images.githubusercontent.com/48110180/163163615-0c887adf-f591-4455-8f6a-516204796fad.png)
 
+![star-history-2024530](https://github.com/huiihao/ZJU-daka/assets/48110180/4ba1f6d6-ef2a-4f3b-bd80-ec5ed574e299)
